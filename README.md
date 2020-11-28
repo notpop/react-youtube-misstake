@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+Reactの練習としてYoutubeクローンの作成を行う。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
