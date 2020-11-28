@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className={Style.header}>
             <div className={Style.item}>
-                <Link to="/">ReactTube</Link>
+                <Link to="/">react-tube</Link>
             </div>
             <div className={Style.item}>
                 <form>

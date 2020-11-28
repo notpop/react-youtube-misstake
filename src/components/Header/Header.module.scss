@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
 .header {
     position: fixed;
     left: 0;
@@ -5,11 +7,12 @@
     display: flex;
     height: 56px;
     width: 100%;
-    background-color: #202020;
+    background-color: rgba(129,216,208,1);
 
     a {
-        color: white;
-        font-size: 1.2rem;
+        color: black;
+        font-family: 'Vollkorn', serif;
+        font-size: 1.5rem;
         line-height: 56px;
         padding-left: 1rem;
         text-decoration: none;
@@ -29,6 +32,15 @@
         height: 32px;
         display: flex;
         margin: 12px 0;
+        @media screen and (max-width: 960px) {
+            width: 420px;
+            margin: 1rem 2.5%;
+        }
+
+        @media screen and (max-width: 560px) {
+            width: 90%;
+            margin: 1rem auto;
+        }
 
         input {
             width: 80%;
@@ -36,6 +48,8 @@
             border: #303030;
             background-color: white;
             color: white;
+            outline: none;
+            caret-color: rgba(129,216,208,1);
         }
 
         button {
@@ -43,6 +57,13 @@
             background-color: #303030;
             color: white;
             border: none;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: black;
+            color: #fff;
+            cursor: pointer;
         }
     }
 }
